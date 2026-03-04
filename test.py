@@ -40,7 +40,8 @@ time.sleep(4)
 driver.get("https://web.whatsapp.com/")
 
 print("🔑 Scan QR code (first time only)...")
-input("👉 Press Enter after WhatsApp Web is ready...")
+print("⏳ Waiting 30 seconds for QR code scan...")
+time.sleep(30)
 
 
 
